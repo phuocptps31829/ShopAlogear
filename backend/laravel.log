@@ -1,0 +1,3 @@
+[2025-03-28 00:28:20] production.INFO: User-Agent từ request: {"user_agent":"WhatsApp/2"} 
+[2025-03-28 00:28:29] production.INFO: User-Agent từ request: {"user_agent":"WhatsApp/2"} 
+[2025-03-28 00:30:35] production.INFO: User-Agent từ request: {"user_agent":"PostmanRuntime/7.43.2"} 

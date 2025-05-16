@@ -1,0 +1,24 @@
+Các api có cache
+
+Lệnh cài redis
+
+cd ~
+wget http://download.redis.io/releases/redis-6.2.13.tar.gz
+
+Giải nén redis
+
+tar -xvzf redis-6.2.13.tar.gz
+cd redis-6.2.13
+make
+
+Kiểm tra chạy chưa
+src/redis-cli ping
+
+Khởi động redis
+src/redis-server &
+
+Chạy hàng đợi
+php artisan queue:work
+
+setup db bắt đầu
+- logo cần 2 bản ghi type 3, 4
